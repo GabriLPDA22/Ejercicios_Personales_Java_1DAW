@@ -1,8 +1,8 @@
 public class Persona {
-    protected String nombre;
-    protected int edad;
+    private String nombre;
+    private int edad;
 
-    public void cargarDatosPersonales(String nombre, int edad) {
+    public Persona(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
@@ -11,5 +11,6 @@ public class Persona {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad);
     }
 }
+
 
 

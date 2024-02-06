@@ -1,12 +1,14 @@
 public class Empleado extends Persona {
-    protected double sueldo;
+    private double sueldo;
 
-    public void cargarSueldo(double sueldo) {
+    public Empleado(String nombre, int edad, double sueldo) {
+        super(nombre, edad); // Llama al constructor de la clase base (Persona)
         this.sueldo = sueldo;
     }
 
     public void imprimirSueldo() {
-        System.out.println("Nombre: " + nombre + ", Sueldo: " + sueldo);
+        System.out.println("Sueldo: " + sueldo);
     }
 }
+
 
