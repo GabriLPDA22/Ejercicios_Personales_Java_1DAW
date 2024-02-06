@@ -1,7 +1,3 @@
-
-
-Para hacer el README.md más atractivo y visualmente agradable, incorporaremos más detalles gráficos y una estructura mejorada. Aquí tienes una versión mejorada con uso de emojis para resaltar secciones y darle un toque más moderno y amigable.
-
 🚌 Gestión de Transporte ACME para DSW 🚏
 Este proyecto es el corazón del sistema de gestión para la empresa de transporte DSW, diseñado específicamente para administrar las operaciones y rutas de la compañía ACME, así como para gestionar su valioso equipo de empleados.
 
