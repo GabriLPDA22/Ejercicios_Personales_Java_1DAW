@@ -18,19 +18,19 @@ public class Password {
         this.contraseña = generarPassword(); // Generamos una contraseña aleatoria.
     }
 
-    // Método simplificado para generar una contraseña aleatoria
     private String generarPassword() {
-        String caracteresPermitidos = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        String caracteresPermitidos = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=<>?/"; // Agregar símbolos según necesites
         Random generadorRandom = new Random();
-        char[] passwordArray = new char[longitud]; // Arreglo para almacenar los caracteres de la contraseña.
-
+        char[] passwordArray = new char[longitud];
+    
         for (int i = 0; i < longitud; i++) {
-            int caracterAleatorioIndex = generadorRandom.nextInt(caracteresPermitidos.length()); // Obtenemos un índice aleatorio de un carácter.
-            passwordArray[i] = caracteresPermitidos.charAt(caracterAleatorioIndex); // Asignamos el carácter aleatorio al array de la contraseña.
+            int caracterAleatorioIndex = generadorRandom.nextInt(caracteresPermitidos.length());
+            passwordArray[i] = caracteresPermitidos.charAt(caracterAleatorioIndex);
         }
-
-        return new String(passwordArray); // Convertimos el array de caracteres en una cadena y la retornamos.
+    
+        return new String(passwordArray);
     }
+
 
     public boolean esFuerte() {
         int contadorMayusculas = 0; 
