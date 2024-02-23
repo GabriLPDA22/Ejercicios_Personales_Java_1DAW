@@ -19,7 +19,7 @@ public class Password {
     }
 
     private String generarPassword() {
-        String caracteresPermitidos = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=<>?/"; // Agregar símbolos según necesites
+        String caracteresPermitidos = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_-+=<>?/"; // Agregar símbolos si necesitamos
         Random generadorRandom = new Random();
         char[] passwordArray = new char[longitud];
     
