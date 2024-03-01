@@ -1,4 +1,4 @@
-package SegundaEva.Herencia.Objetos.Contraseñas;
+package Objetos.Contraseñas;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 package Objetos.Herencia.ClasePricipal;
 
-public class Inmueble {
+public abstract class Inmueble {
     protected String direccion;
     protected double metrosCuadrados;
     protected int antiguedad; // Años de antigüedad del inmueble
