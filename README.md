@@ -7,6 +7,7 @@ Este repositorio contiene una colección de ejercicios de Java centrados en el t
 El repositorio está organizado de la siguiente manera:
 
 - `objetos`: Contiene ejercicios relacionados con la creación y manipulación de objetos en Java.
+- `excepciones`: Contiene ejercicios relacionados con la creación y manipulación de objetos en Java.
 
 Cada carpeta contiene un archivo `README.md` con una breve descripción de los ejercicios y posiblemente alguna guía sobre cómo abordarlos.
 
