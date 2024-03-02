@@ -40,14 +40,13 @@ El ejercicio consiste en crear la clase `Password` con las siguientes especifica
 4. El programa debe generar un array de contraseñas y otro array paralelo que indique la fortaleza de cada contraseña.
 5. Al final, el programa mostrará cada contraseña junto con un indicador de si es fuerte o no.
 
-## Formato de Salida
-
-El programa debe mostrar las contraseñas y su fortaleza en el siguiente formato:
-
+## Ejemplo de Salida
 ```
-contraseña1 esFuerte
-contraseña2 esFuerte
-...
-```
+Introduce el número de contraseñas: 4
+Introduce la longitud de las contraseñas: 10
 
-Donde `esFuerte` es un valor booleano que indica si la contraseña es fuerte (`true`) o no (`false`).
+Contraseña1: 1aA4567890, Fortaleza: true
+Contraseña2: 2bB2345678, Fortaleza: true
+Contraseña3: 3cC1234567, Fortaleza: false
+Contraseña4: 4dD7654321, Fortaleza: false
+```
